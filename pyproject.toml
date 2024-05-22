@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-vsgan"
+description = "Nodes:Upscale Video Tensorrt"
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["imageio[ffmpeg]", "av", "asyncio", "websockets"]
+
+[project.urls]
+Repository = "https://github.com/yuvraj108c/ComfyUI-Vsgan"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-Vsgan"
+Icon = ""
